@@ -1,0 +1,5 @@
+nm-tray (0.3.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 10 Feb 2018 19:35:07 -0600

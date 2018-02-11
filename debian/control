@@ -1,0 +1,22 @@
+Source: nm-tray
+Section: net
+Priority: optional
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@ubuntu.com>,
+           Julien Lavergne <gilir@ubuntu.com>
+Build-Depends: debhelper (>= 11),
+               libkf5networkmanagerqt-dev (>= 5.24.0),
+               qtbase5-dev (>= 5.4.0)
+Standards-Version: 4.1.3
+Homepage: https://github.com/palinek/nm-tray
+
+Package: nm-tray
+Architecture: any
+Depends: libkf5networkmanagerqt-dev (>= 5.24.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: simple NetworkManager front end
+ nm-tray is a simple NetworkManager front end with information icon residing
+ in system tray (like e.g. nm-applet). It's a pure Qt application. For
+ interaction with NetworkManager it uses API provided by
+ KF5::NetworkManagerQt -> plain DBus communication.
