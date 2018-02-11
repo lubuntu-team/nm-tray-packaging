@@ -9,6 +9,8 @@ Build-Depends: debhelper (>= 11),
                qtbase5-dev (>= 5.4.0)
 Standards-Version: 4.1.3
 Homepage: https://github.com/palinek/nm-tray
+Vcs-Browser: https://git.launchpad.net/~lubuntu-dev/+git/nm-tray-packaging
+Vcs-Git: https://git.launchpad.net/~lubuntu-dev/+git/nm-tray-packaging
 
 Package: nm-tray
 Architecture: any
