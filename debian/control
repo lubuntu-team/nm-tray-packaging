@@ -10,8 +10,8 @@ Build-Depends: cmake,
                qttools5-dev (>= 5.4.0)
 Standards-Version: 4.1.5
 Homepage: https://github.com/palinek/nm-tray
-Vcs-Browser: https://git.launchpad.net/~lubuntu-dev/+git/nm-tray-packaging
-Vcs-Git: https://git.launchpad.net/~lubuntu-dev/+git/nm-tray-packaging
+Vcs-Browser: https://phab.lubuntu.me/source/nm-tray/
+Vcs-Git: https://phab.lubuntu.me/source/nm-tray.git
 
 Package: nm-tray
 Architecture: any
