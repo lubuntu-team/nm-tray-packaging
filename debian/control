@@ -2,8 +2,7 @@ Source: nm-tray
 Section: net
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-Uploaders: Simon Quigley <tsimonq2@ubuntu.com>,
-           Julien Lavergne <gilir@ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 11),
                libkf5networkmanagerqt-dev (>= 5.24.0),
