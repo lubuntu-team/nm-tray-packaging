@@ -4,7 +4,7 @@ Upstream-Contact: Palo Kisa <palo.kisa@gmail.com>
 Source: https://github.com/palinek/nm-tray
 
 Files: *
-Copyright: 2015-2017 Palo Kisa <palo.kisa@gmail.com>
+Copyright: 2015-2018 Palo Kisa <palo.kisa@gmail.com>
 License: GPL-2+
 
 Files: debian/*

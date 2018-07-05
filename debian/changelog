@@ -4,6 +4,7 @@ nm-tray (0.4.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump Standards-version to 4.1.5, no changes needed.
   * Remove gilir as an uploader as he has left the team.
   * Bump KF5 dependencies to 5.36.0.
+  * Update copyright.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 05 Jul 2018 17:34:18 -0500
 
