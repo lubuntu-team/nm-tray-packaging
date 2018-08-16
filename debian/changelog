@@ -1,4 +1,4 @@
-nm-tray (0.4.0-0ubuntu2) UNRELEASED; urgency=medium
+nm-tray (0.4.0-0ubuntu2) cosmic; urgency=medium
 
   [ Simon Quigley ]
   * Update Vcs-* for the new location.
@@ -7,7 +7,7 @@ nm-tray (0.4.0-0ubuntu2) UNRELEASED; urgency=medium
   * generalize-terminal-for-edits.patch: Use x-terminal-emulator in lieu of
     xterm for connection editing. (LP: #1786978)
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 05 Jul 2018 17:48:30 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 16 Aug 2018 01:11:08 -0500
 
 nm-tray (0.4.0-0ubuntu1) cosmic; urgency=medium
 
