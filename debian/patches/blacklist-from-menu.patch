@@ -1,0 +1,9 @@
+Description: Blacklist from menus.
+Author: Walter Lapchynski <wxl@ubuntu.com>
+--- a/resources/nm-tray.desktop
++++ b/resources/nm-tray.desktop
+@@ -6,3 +6,4 @@ Icon=network-transmit
+ TryExec=nm-tray
+ Exec=nm-tray
+ Categories=System;Monitor;Qt;
++NoDisplay=true

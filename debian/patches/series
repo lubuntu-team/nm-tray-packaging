@@ -1,2 +1,3 @@
 fix-internal-version.patch
+blacklist-from-menu.patch
 generalize-terminal-for-edits.patch
