@@ -1,3 +1,9 @@
+nm-tray (0.4.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 06 Oct 2018 16:53:00 -0500
+
 nm-tray (0.4.0-0ubuntu3) cosmic; urgency=medium
 
   * Blacklist from menus.
