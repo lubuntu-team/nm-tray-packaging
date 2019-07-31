@@ -1,8 +1,8 @@
-nm-tray (0.4.1-0ubuntu3) UNRELEASED; urgency=medium
+nm-tray (0.4.1-0ubuntu3) eoan; urgency=medium
 
   * Reverted previous commit 1bc4f5406954
 
- -- Hans P Möller <hmollercl@lubuntu.me>  Tue, 30 Jul 2019 21:19:07 -0400
+ -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 30 Jul 2019 19:38:35 -0700
 
 nm-tray (0.4.1-0ubuntu2) eoan; urgency=medium
 
