@@ -1,3 +1,9 @@
+nm-tray (0.4.1-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Reverted previous commit 1bc4f5406954
+
+ -- Hans P Möller <hmollercl@lubuntu.me>  Tue, 30 Jul 2019 21:19:07 -0400
+
 nm-tray (0.4.1-0ubuntu2) eoan; urgency=medium
 
   * Changed connection editor to nm-connnection-editor
