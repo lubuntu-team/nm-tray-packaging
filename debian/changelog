@@ -1,11 +1,10 @@
 nm-tray (0.4.3-0ubuntu1) eoan; urgency=medium
 
   * Bump version for new upstream release 0.4.3
-  * Bump Standards-version to 4.4.0
-  * Bump debhelper to 12
-  * Run wrap and sort
+  * Bump Standards-version to 4.4.0, no changes needed
+  * Bump debhelper to 12, no changes needed
 
- -- Hans P. Möller <hmoller@gmail.com>  Fri, 09 Aug 2019 22:11:38 -0400
+ -- Hans P Möller <hmoller@gmail.com>  Fri, 09 Aug 2019 22:11:38 -0400
 
 nm-tray (0.4.1-0ubuntu3) eoan; urgency=medium
 
