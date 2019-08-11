@@ -4,11 +4,11 @@ Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: cmake,
-               debhelper (>= 11),
+               debhelper (>= 12),
                libkf5networkmanagerqt-dev (>= 5.36.0),
                qtbase5-dev (>= 5.4.0),
                qttools5-dev (>= 5.4.0)
-Standards-Version: 4.2.1
+Standards-Version: 4.4.0
 Homepage: https://github.com/palinek/nm-tray
 Vcs-Browser: https://phab.lubuntu.me/source/nm-tray/
 Vcs-Git: https://phab.lubuntu.me/source/nm-tray.git
