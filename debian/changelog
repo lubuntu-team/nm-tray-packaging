@@ -1,3 +1,10 @@
+nm-tray (0.4.3-0ubuntu2) eoan; urgency=medium
+
+  * Add missing include for used class
+  * Removed dependency on libkf5networkmanagerqt-dev (LP: #1816267)
+
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Thu, 03 Oct 2019 18:06:08 +0200
+
 nm-tray (0.4.3-0ubuntu1) eoan; urgency=medium
 
   * Bump version for new upstream release 0.4.3

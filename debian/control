@@ -15,8 +15,7 @@ Vcs-Git: https://phab.lubuntu.me/source/nm-tray.git
 
 Package: nm-tray
 Architecture: any
-Depends: libkf5networkmanagerqt-dev (>= 5.36.0),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
 Description: simple NetworkManager front end
  nm-tray is a simple NetworkManager front end with information icon residing

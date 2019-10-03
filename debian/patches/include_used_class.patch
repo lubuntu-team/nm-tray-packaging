@@ -1,0 +1,18 @@
+Description: Add missing include for used class
+Author: Palo Kisa <palo.kisa@gmail.com>
+Applied-Upstream: https://github.com/palinek/nm-tray/commit/4563dabee3cbee13bc9d23a4a5d0ddda1526b43f
+
+---
+ src/nmmodel.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+--- a/src/nmmodel.cpp
++++ b/src/nmmodel.cpp
+@@ -45,6 +45,7 @@ COPYRIGHT_HEADER*/
+ #include <NetworkManagerQt/ConnectionSettings>
+ #include <QDBusPendingCallWatcher>
+ #include <QInputDialog>
++#include <QMetaEnum>
+ 
+ namespace
+ {
