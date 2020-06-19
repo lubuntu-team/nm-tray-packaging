@@ -1,0 +1,2 @@
+# nm-tray has no CLI functionality, so there's really nothing to document
+nm-tray: binary-without-manpage usr/bin/nm-tray
