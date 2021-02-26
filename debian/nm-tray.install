@@ -1,0 +1,3 @@
+etc/xdg/autostart/nm-tray-autostart.desktop
+usr/share/applications/nm-tray.desktop
+usr/bin/nm-tray
