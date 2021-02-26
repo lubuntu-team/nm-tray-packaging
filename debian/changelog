@@ -1,3 +1,43 @@
+nm-tray (0.4.3-2ubuntu1) hirsute; urgency=low
+
+  * Merge from Debian unstable.  Remaining changes:
+    - debian/rules:
+      + build with -Wall -pedantic
+      + keep DOM_PLUGIN=YES and PULL_TRANSLATIONS=NO
+    - debian/patches/blacklist-from-menu.patch
+    - debian/patches/generalize-terminal-for-edits.patch
+  * Dropped changes, included upstream:
+    - debian/patches/include_used_class.patch
+      + included as debian/patches/nmmodel.cpp
+    - debian/control:
+      + build-depend on qtbase5-dev, required by d/p/include_used_class.patch
+
+ -- Lukas Märdian <slyon@ubuntu.com>  Wed, 17 Feb 2021 15:56:49 +0100
+
+nm-tray (0.4.3-2) unstable; urgency=medium
+
+  * Switched to gbp
+  * Added upstream patch for incomplete type 'class QMetaEnum'
+    (Closes: #941648)
+  * Added Rules-Requires-Root field
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 04 Oct 2019 19:39:14 +0200
+
+nm-tray (0.4.3-1) unstable; urgency=medium
+
+  * Cherry-picked new upstream release 0.4.3
+  * Switched from debhelper to debhelper-compat, no changes needed
+  * Bumped Standards-Version to 4.4.0, no changes needed
+  * Fixed years in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 15 Aug 2019 23:25:48 +0200
+
+nm-tray (0.4.3-0ubuntu3) focal; urgency=medium
+
+  * No-change rebuild for libgcc-s1 package name change.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 23 Mar 2020 07:20:45 +0100
+
 nm-tray (0.4.3-0ubuntu2) eoan; urgency=medium
 
   * Add missing include for used class
@@ -12,6 +52,20 @@ nm-tray (0.4.3-0ubuntu1) eoan; urgency=medium
   * Bump debhelper to 12, no changes needed
 
  -- Hans P Möller <hmoller@gmail.com>  Fri, 09 Aug 2019 22:11:38 -0400
+
+nm-tray (0.4.2-1) unstable; urgency=medium
+
+  * Cherry-picked new upstream release 0.4.2
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 20 Oct 2018 12:52:26 +0200
+
+nm-tray (0.4.1-1) unstable; urgency=medium
+
+  * Cherry-picked new upstream release 0.4.1
+  * Added Dependency qterminal | x-terminal-emulator
+  * Bumped Standards to 4.2.1, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 14 Sep 2018 23:19:21 +0200
 
 nm-tray (0.4.1-0ubuntu3) eoan; urgency=medium
 
@@ -32,6 +86,12 @@ nm-tray (0.4.1-0ubuntu1) cosmic; urgency=medium
   * Remove the reverse-applicable fix-internal-version.patch.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 06 Oct 2018 16:59:03 -0500
+
+nm-tray (0.4.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #890354)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 25 Aug 2018 16:58:47 +0200
 
 nm-tray (0.4.0-0ubuntu3) cosmic; urgency=medium
 
