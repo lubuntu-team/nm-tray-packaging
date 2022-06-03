@@ -1,3 +1,9 @@
+nm-tray (0.5.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 02 Jun 2022 23:34:29 -0500
+
 nm-tray (0.4.3-2ubuntu1) hirsute; urgency=low
 
   * Merge from Debian unstable.  Remaining changes:
