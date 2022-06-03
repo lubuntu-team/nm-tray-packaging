@@ -6,8 +6,8 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Simon Quigley <tsimonq2@ubuntu.com>
 Section: net
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
-               cmake,
+Build-Depends: cmake,
+               debhelper-compat (= 13),
                libkf5networkmanagerqt-dev,
                modemmanager-qt-dev,
                qttools5-dev,
@@ -20,10 +20,10 @@ Rules-Requires-Root: no
 
 Package: nm-tray
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-         network-manager,
-         qterminal | x-terminal-emulator
+Depends: network-manager,
+         qterminal | x-terminal-emulator,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: nm-tray-l10n
 Description: Simple Network Manager frontend written in Qt
  nm-tray is a simple NetworkManager front end with information icon residing
@@ -37,8 +37,7 @@ Package: nm-tray-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: ${misc:Depends},
-         qttranslations5-l10n
+Depends: qttranslations5-l10n, ${misc:Depends}
 Description: Language package for nm-tray
  nm-tray is a simple NetworkManager front end with information icon residing
  in system tray (like e.g. nm-applet).
